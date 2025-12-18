@@ -5,7 +5,7 @@ const { color } = require('./lib/myfunc');
 const toBool = (value) => value === "true";
 
 
-global.owner = process.env.OWNER_NUMBER;
+global.owner = process.env.OWNER_NUMBER;233551961429
 global.nomerowner = process.env.OWNER_NUMBERS;
 
 global.menu_image = process.env.MENU_IMAGE;
@@ -13,7 +13,7 @@ global.menu_image = process.env.MENU_IMAGE;
 global.ANTI_TEMU = toBool(process.env.ANTI_TEMU);
 global.ANTI_TAG = toBool(process.env.ANTI_TAG);
 
-global.bot_name = process.env.BOT_NAME;
+global.bot_name = process.env.BOT_NAME;"MGL4LYF"
 
 global.public = toBool(process.env.PUBLIC);
 
@@ -27,12 +27,12 @@ global.ANTI_CALL = toBool(process.env.ANTI_CALL);
 global.unavailable = toBool(process.env.UNAVAILABLE);
 global.available = toBool(process.env.AVAILABLE);
 global.autoreadmessages = toBool(process.env.AUTO_READ_MESSAGES);
-global.chatbot = toBool(process.env.CHATBOT);
-global.autoreact = toBool(process.env.AUTO_REACT);
+global.chatbot = toBool(process.env.CHATBOT);true;
+global.autoreact = toBool(process.env.AUTO_REACT);true;
 global.autoTyping = toBool(process.env.AUTO_TYPING);
-global.autoViewStatus = toBool(process.env.AUTO_STATUS_VIEW);
-global.autoStatusReact = toBool(process.env.AUTO_STATUS_REACT);
-global.welcome = toBool(process.env.WELCOME);
+global.autoViewStatus = toBool(process.env.AUTO_STATUS_VIEW);true;
+global.autoStatusReact = toBool(process.env.AUTO_STATUS_REACT);true;
+global.welcome = toBool(process.env.WELCOME);true;
 global.anticall = toBool(process.env.ANTI_CALL);
 global.autobio = toBool(process.env.AUTO_BIO);
 
